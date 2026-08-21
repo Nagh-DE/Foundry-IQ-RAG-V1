@@ -1,0 +1,15 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.13.0
+pydantic-settings>=2.15.0
+python-dotenv>=1.0.0
+azure-search-documents==12.1.0b1
+azure-ai-projects>=2.4.0
+azure-identity>=1.17.0
+openai>=3.0.0
+httpx>=0.25.0
+
+# data loading only (not needed at runtime)
+sqlalchemy>=2.0.0
+pyodbc>=5.0.0
+pandas>=2.2.0,<3.0.0

@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+dist/
+.claude/
+
+# raw data files — not tracked in git
+csv/
+pdfs/
+manifest.csv
